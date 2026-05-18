@@ -1,4 +1,4 @@
-# Automation Exercise Ecommerce Framework
+# E-Commerce Automation Framework
 
 Selenium automation framework for ecommerce website testing using Python and PyTest.
 
