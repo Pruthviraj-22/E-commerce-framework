@@ -11,7 +11,7 @@ def test_user_registration():
     login.click_signup_login()
     signup = SignupPage(driver)
     signup.enter_name("Pruthvi")
-    signup.enter_email("pruthvi170075@gmail.com")
+    signup.enter_email("pruthvi110075@gmail.com")
     signup.click_signup()
     signup.select_gender()
     signup.enter_password("test123")
@@ -21,7 +21,7 @@ def test_user_registration():
     signup.enter_state("Karnataka")
     signup.enter_city("Bangalore")
     signup.enter_zipcode("560067")
-    signup.enter_mobile("9876003844")
+    signup.enter_mobile("9816003844")
     time.sleep(3)
     signup.click_create_account()
 
