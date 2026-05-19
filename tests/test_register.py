@@ -1,4 +1,5 @@
 import time
+import random
 from utils.driver_factory import get_driver
 from pages.login_page import LoginPage
 from pages.signup_page import SignupPage
@@ -11,7 +12,9 @@ def test_user_registration():
     login.click_signup_login()
     signup = SignupPage(driver)
     signup.enter_name("Pruthvi")
-    signup.enter_email("pruthvi110075@gmail.com")
+    random_number = random.randint(1000, 9999)
+
+    email = f"test{random_number}@gmail.com"
     signup.click_signup()
     signup.select_gender()
     signup.enter_password("test123")
